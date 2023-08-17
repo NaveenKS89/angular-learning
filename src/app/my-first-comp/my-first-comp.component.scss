@@ -1,0 +1,110 @@
+.form-container {
+    margin: auto;
+    width: 500px;
+    background-color: beige;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+label {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+form {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-field {
+    width: 100%;
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+}
+
+textarea, input {
+    resize: none;
+    background-color: transparent;
+    border: 1px solid #707070;
+    outline: none;
+    &:focus {
+        border: 1px solid #90caf9;
+        outline: none;
+    }
+    font-size: 13;
+    font-weight: 400;
+    color: #121212;
+}
+
+h3 {
+    width: 100%;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.form-output {
+    font-size: 13px;
+    font-weight: 500;
+    color: #121212;
+}
+
+.submit-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    color: white;
+    background-color: #90caf9;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+    thead {
+        tr {
+            th {
+                border: 1px solid #707070;
+                font-size: 13px;
+                font-weight: 500;
+                color: #707070;
+            }
+        }
+    }
+    tbody {
+        tr {
+            td {
+                border: 1px solid #707070;
+                font-size: 13px;
+                font-weight: 500;
+                color: #121212;
+            }
+        }
+    }
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
